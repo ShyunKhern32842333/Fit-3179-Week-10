@@ -124,7 +124,7 @@
         "color": {
           "field": "MalePrimaryEnrolement",
           "type": "quantitative",
-          "scale": {"domain": [80, 100], "range": ["lightblue", "darkblue"]},
+          "scale": {"domain": [8000, 300000], "range": ["lightblue", "darkblue"]},
           "legend": {"title": "Primary Enrolment"}
         },
         "tooltip": [
