@@ -75,7 +75,7 @@
           "field": "MaleLiteracyRate",
           "type": "quantitative",
           "scale": {"domain": [80, 100], "range": ["lightyellow", "darkgreen"]},
-          "legend": {"title": "Literacy Rate (%)"}
+          "legend": {"title": "Male Literacy Rate (%)", "orient": "right", "direction": "horizontal", "gradientLength": 200}
         },
         "tooltip": [
           {"field": "properties.shapeName", "type": "nominal", "title": "State"},
@@ -100,7 +100,7 @@
           "field": "FemaleLiteracyRate",
           "type": "quantitative",
           "scale": {"domain": [80, 100], "range": ["lightyellow", "darkgreen"]},
-          "legend": {"title": "Literacy Rate (%)"}
+          "legend": {"title": "Female Literacy Rate (%)", "orient": "right", "direction": "horizontal", "gradientLength": 200}
         },
         "tooltip": [
           {"field": "properties.shapeName", "type": "nominal", "title": "State"},
@@ -124,8 +124,8 @@
         "color": {
           "field": "MalePrimaryEnrolement",
           "type": "quantitative",
-          "scale": {"domain": [8000, 300000], "range": ["lightblue", "darkblue"]},
-          "legend": {"title": "Primary Enrolment"}
+          "scale": {"domain": [0, 120000], "range": ["lightcoral", "crimson"]},
+          "legend": {"title": "Male Primary Enrolment" , "orient": "right", "direction": "horizontal", "gradientLength": 200}
         },
         "tooltip": [
           {"field": "properties.shapeName", "type": "nominal", "title": "State"},
@@ -149,8 +149,8 @@
         "color": {
           "field": "FemalePrimaryEnrolment",
           "type": "quantitative",
-          "scale": {"domain": [8000, 300000], "range": ["lightblue", "darkblue"]},
-          "legend": {"title": "Primary Enrolment"}
+          "scale": {"domain": [0, 120000], "range": ["lightcoral", "crimson"]},
+          "legend": {"title": "Female Primary Enrolment", "orient": "right", "direction": "horizontal", "gradientLength": 200}
         },
         "tooltip": [
           {"field": "properties.shapeName", "type": "nominal", "title": "State"},
@@ -174,8 +174,8 @@
         "color": {
           "field": "MaleSecondaryEnrolement",
           "type": "quantitative",
-          "scale": {"domain": [8000, 300000], "range": ["lightblue", "darkblue"]},
-          "legend": {"title": "Secondary Enrolment"}
+          "scale": {"domain": [0, 120000], "range": ["lightblue", "darkblue"]},
+          "legend": {"title": "Male Secondary Enrolment","orient": "right", "direction": "horizontal", "gradientLength": 200}
         },
         "tooltip": [
           {"field": "properties.shapeName", "type": "nominal", "title": "State"},
@@ -199,8 +199,8 @@
         "color": {
           "field": "FemaleSecondaryEnrolment",
           "type": "quantitative",
-          "scale": {"domain": [8000, 300000], "range": ["lightblue", "darkblue"]},
-          "legend": {"title": "Secondary Enrolment"}
+          "scale": {"domain": [0, 120000], "range": ["lightblue", "darkblue"]},
+          "legend": {"title": "Female Secondary Enrolment", "orient": "right", "direction": "horizontal", "gradientLength": 200}
         },
         "tooltip": [
           {"field": "properties.shapeName", "type": "nominal", "title": "State"},
@@ -224,8 +224,8 @@
         "color": {
           "field": "MalePrimaryCompletionRate",
           "type": "quantitative",
-          "scale": {"domain": [80, 105], "range": ["lightgreen", "darkgreen"]},
-          "legend": {"title": "Primary Completion Rate (%)"}
+          "scale": {"domain": [80, 105], "range": ["navajowhite", "darkred"]},
+          "legend": {"title": "Male Primary Completion Rate (%)", "orient": "right", "direction": "horizontal", "gradientLength": 200}
         },
         "tooltip": [
           {"field": "properties.shapeName", "type": "nominal", "title": "State"},
@@ -249,8 +249,8 @@
         "color": {
           "field": "FemalePrimaryCompletionRate",
           "type": "quantitative",
-          "scale": {"domain": [80, 105], "range": ["lightgreen", "darkgreen"]},
-          "legend": {"title": "Primary Completion Rate (%)"}
+          "scale": {"domain": [80, 105], "range": ["navajowhite", "darkred"]},
+          "legend": {"title": "Female Primary Completion Rate (%)", "orient": "right", "direction": "horizontal", "gradientLength": 200}
         },
         "tooltip": [
           {"field": "properties.shapeName", "type": "nominal", "title": "State"},
@@ -274,8 +274,8 @@
         "color": {
           "field": "MaleSecondaryCompletionRate",
           "type": "quantitative",
-          "scale": {"domain": [80, 105], "range": ["lightgreen", "darkgreen"]},
-          "legend": {"title": "Secondary Completion Rate (%)"}
+          "scale": {"domain": [80, 105], "range": ["lightcyan", "teal"]},
+          "legend": {"title": "Male Secondary Completion Rate (%)", "orient": "right", "direction": "horizontal", "gradientLength": 200}
         },
         "tooltip": [
           {"field": "properties.shapeName", "type": "nominal", "title": "State"},
@@ -299,8 +299,8 @@
         "color": {
           "field": "FemaleSecondaryCompletionRate",
           "type": "quantitative",
-          "scale": {"domain": [80, 105], "range": ["lightgreen", "darkgreen"]},
-          "legend": {"title": "Secondary Completion Rate (%)"}
+          "scale": {"domain": [80, 105], "range": ["lightcyan", "teal"]},
+          "legend": {"title": "Female Secondary Completion Rate (%)", "orient": "right", "direction": "horizontal", "gradientLength": 200}
         },
         "tooltip": [
           {"field": "properties.shapeName", "type": "nominal", "title": "State"},
