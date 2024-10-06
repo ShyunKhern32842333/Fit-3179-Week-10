@@ -174,7 +174,7 @@
         "color": {
           "field": "MaleSecondaryEnrolement",
           "type": "quantitative",
-          "scale": {"domain": [0, 120000], "range": ["lightblue", "darkblue"]},
+          "scale": {"domain": [0, 180000], "range": ["lightblue", "darkblue"]},
           "legend": {"title": "Male Secondary Enrolment","orient": "right", "direction": "horizontal", "gradientLength": 200}
         },
         "tooltip": [
@@ -199,7 +199,7 @@
         "color": {
           "field": "FemaleSecondaryEnrolment",
           "type": "quantitative",
-          "scale": {"domain": [0, 120000], "range": ["lightblue", "darkblue"]},
+          "scale": {"domain": [0, 180000], "range": ["lightblue", "darkblue"]},
           "legend": {"title": "Female Secondary Enrolment", "orient": "right", "direction": "horizontal", "gradientLength": 200}
         },
         "tooltip": [
